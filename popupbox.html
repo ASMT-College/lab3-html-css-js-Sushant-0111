@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <button onclick="show_alert()">alert</button>
+      <button onclick="deleteRow()">delete</button>
+       <button ondblclick="input()">INPUT</button>
+      <script>
+            function show_alert()
+            {
+                  alert("hello this is alert");
+            }
+
+            function deleteRow()
+            {
+                  var result = confirm("Are you sure you want to delete: ");
+            
+                  if(result == true){
+                        document.write("deleted");
+                  }
+            }
+             function input(){
+                  var answer = prompt("Enter the value:");
+                  document.write(answer);
+
+             }
+
+
+      </script>
+</body>
+</html>
+<!-- demonstrate following object of javascript listing their common properties and methods
+string 
+math 
+date
+Regexp
+boolean 
+-->
